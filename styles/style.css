@@ -12,12 +12,22 @@ body {
     color: #EEF0F2;
 }
 
-.texto-destaque-h1 {
-    color: #22D4FD;
+.cabecalho__menu {
+    display: flex;
+    padding: 2% 0% 0% 15%;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #EEF0F2;
+    text-decoration: none;
 }
 
 .apresentacao {
-    padding: 8% 13%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,6 +38,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.texto-destaque-h1 {
+    color: #22D4FD;
 }
 
 .apresentacao__conteudo__titulo {
